@@ -40,6 +40,7 @@ const Todo = () =>{
             if(data.id === id){
                 setInputData(data.name);
             }
+            return data;
         })
         setEditId(id);
     }
